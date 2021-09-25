@@ -10,7 +10,7 @@ glClear (GL_COLOR_BUFFER_BIT);
 glColor3f (1.0, 1.0, 1.0);
 
 
-	glBegin(GL_QUADS); //Begin quadrilateral coordinates
+	glBegin(GL_QUADS);
 
 	//Trapezoid
 	glColor3f (0.4, 0.4, 0.4);
@@ -48,23 +48,10 @@ glColor3f (1.0, 1.0, 1.0);
 	glVertex3f(0.90f, 0.46f, 0.0f);
 	glVertex3f(0.64f, 0.46f, 0.0f);
 
-	glEnd(); //End quadrilateral coordinates
+	glEnd();
 
 
-	glBegin(GL_TRIANGLES); //Begin triangle coordinates
-
-	/*//Pentagon
-	glVertex3f(0.5f, 0.05f, 0.0f);
-	glVertex3f(0.75f, 0.05f, 0.0f);
-	glVertex3f(0.5f, 0.35f, 0.0f);
-
-	glVertex3f(0.5f, 0.35f, 0.0f);
-	glVertex3f(0.75f, 0.05f, 0.0f);
-	glVertex3f(0.75f, 0.35f, 0.0f);
-
-	glVertex3f(0.5f, 0.35f, 0.0f);
-	glVertex3f(0.75f, 0.35f, 0.0f);
-	glVertex3f(0.63f, 0.50f, 0.0f);*/
+	glBegin(GL_TRIANGLES);
 
 	//Triangle
 	glColor3f (1.0, 0.0, 1.0);
