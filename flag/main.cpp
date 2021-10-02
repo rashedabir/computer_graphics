@@ -13,7 +13,7 @@ void display(void)
     glBegin(GL_QUADS);
 
     //bottom-red
-    glColor3f (1.0, 0.1, 0.2);
+    glColor3f (7.0, 0.0, 0.0);
     glVertex2d(0.0, 0.0);
     glVertex2d(1.0, 0.0);
     glVertex2d(1.0, 0.15);
@@ -21,14 +21,14 @@ void display(void)
 
 
     //top-red
-    glColor3f (1.0, 0.1, 0.2);
+    glColor3f (7.0, 0.0, 0.0);
     glVertex2d(0.0, 0.85);
     glVertex2d(1.0, 0.85);
     glVertex2d(1.0, 1.0);
     glVertex2d(0.0, 1.0);
 
     //center-blue
-    glColor3f (0.0, 0.0, 1.0);
+    glColor3f (0.1, 0.0, 0.8);
     glVertex2d(0.0, 0.30);
     glVertex2d(1.0, 0.30);
     glVertex2d(1.0, 0.70);

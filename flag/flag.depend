@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1633147728 source:f:\projects and excersize\computer graphics\flag\main.cpp
+1633147826 source:f:\projects and excersize\computer graphics\flag\main.cpp
 	<GL/gl.h>
 	<GL/glut.h>
 
