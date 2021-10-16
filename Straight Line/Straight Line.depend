@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1634358986 source:f:\projects and excersize\computer graphics\straight line\main.cpp
+1634359883 source:f:\projects and excersize\computer graphics\straight line\main.cpp
+	<GL/glut.h>
 	<stdio.h>
 	<GL/gl.h>
-	<GL/glut.h>
+	<math.h>
 
 1341006776 c:\program files (x86)\codeblocks\mingw\include\stdio.h
 	<_mingw.h>
@@ -237,4 +238,7 @@
 1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
 	<stddef.h>
 	<GL/gl.h>
+
+1341006774 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
 
