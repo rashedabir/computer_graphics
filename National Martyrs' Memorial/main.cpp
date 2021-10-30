@@ -25,7 +25,7 @@ void myDisplay(void)
 {
 
     glClear(GL_COLOR_BUFFER_BIT);
-    glColor3f(1.0, 0.3, 0.2);
+    glColor3f(0.1, 0.5, 0.5);
     glBegin(GL_POLYGON);
     glVertex2i(20, 0);
     glVertex2i (340, 0);
@@ -42,7 +42,7 @@ void myDisplay(void)
     glEnd();
 
 
-    glColor3f(0.8, 0.3, 0.2) ;   //ground 2nd
+    glColor3f(0.1, 0.5, 0.5) ;   //ground 2nd
     glBegin(GL_POLYGON);
     glVertex2i(30, 10);
     glVertex2i (330, 10);
@@ -59,7 +59,7 @@ void myDisplay(void)
     glEnd();
 
 
-    glColor3f(0.6, 0.3, 0.2) ;  //ground 3rd
+    glColor3f(0.1, 0.5, 0.5) ;  //ground 3rd
     glBegin(GL_POLYGON);
     glVertex2i(40, 20);
     glVertex2i (320, 20);
@@ -95,7 +95,7 @@ void myDisplay(void)
 
 
 
-    glColor3f(0.6, 0.4, 0.4) ;    //trin 1 main
+    glColor3f(0.1, 0.5, 0.5) ;    //trin 1 main
     glBegin(GL_POLYGON);
 
     glVertex2i(43, 30);
@@ -124,7 +124,7 @@ void myDisplay(void)
     glEnd();
 
 
-    glColor3f(0.4, 0.4, 0.4) ;     //trn2 main
+    glColor3f(0.1, 0.5, 0.5) ;     //trn2 main
     glBegin(GL_POLYGON);
 
     glVertex2i(62, 30);
@@ -157,7 +157,7 @@ void myDisplay(void)
 
 
 
-    glColor3f(0.4, 0.4, 0.4) ;   //trn3 main
+    glColor3f(0.1, 0.5, 0.5) ;   //trn3 main
     glBegin(GL_POLYGON);
 
     glVertex2i(81, 30);
@@ -187,7 +187,7 @@ void myDisplay(void)
     glEnd();
 
 
-    glColor3f(0.4, 0.4, 0.4) ;   //trn4 main
+    glColor3f(0.1, 0.5, 0.5) ;   //trn4 main
     glBegin(GL_POLYGON);
 
     glVertex2i(101, 30);
@@ -220,7 +220,7 @@ void myDisplay(void)
 
 
 
-    glColor3f(0.4, 0.4, 0.4) ;   //trn5 main
+    glColor3f(0.1, 0.5, 0.5) ;   //trn5 main
     glBegin(GL_POLYGON);
 
     glVertex2i(121, 30);
@@ -251,7 +251,7 @@ void myDisplay(void)
     glEnd();
 
 
-    glColor3f(0.4, 0.4, 0.4) ;     //trn6 main
+    glColor3f(0.1, 0.5, 0.5) ;     //trn6 main
     glBegin(GL_POLYGON);
 
     glVertex2i(141, 30);
@@ -284,7 +284,7 @@ void myDisplay(void)
 
 
 
-    glColor3f(0.4, 0.4, 0.4) ;  //trn7 main
+    glColor3f(0.1, 0.5, 0.5) ;  //trn7 main
     glBegin(GL_POLYGON);
 
     glVertex2i(161, 30);
